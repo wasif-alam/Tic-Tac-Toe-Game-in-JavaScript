@@ -6,7 +6,6 @@ let msg = document.querySelector('#msg');
 
 let  turnO = true; // playerX, playerO
 
-
 const winPatterns = [
     [0, 1, 2],
     [0, 3, 6],
@@ -51,7 +50,6 @@ const enableBoxes = () => {
         box.innerText = '';
     }
 };
-
 
 const showWinner = (winner) => {
     msg.innerText = `Congratulations! Winner is ${winner}`;
